@@ -45,7 +45,6 @@ namespace MyReadingList.WebAPI.Controllers
 
             var findStudent = s.Where(x => x.StudentName == name && x.DepartmentID == department).ToList();
 
-
             if (findStudent == null)
             {
 
